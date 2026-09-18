@@ -1,0 +1,2 @@
+import BNB
+BNB.main()
