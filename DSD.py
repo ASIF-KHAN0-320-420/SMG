@@ -1,2 +1,2 @@
-import BNB
-BNB.main()
+import SMG
+SMG.main()
