@@ -1,2 +1,2 @@
-import SMG
-SMG.main()
+import dump_1
+dump_1.main()
