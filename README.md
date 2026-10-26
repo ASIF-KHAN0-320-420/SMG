@@ -67,3 +67,16 @@ python DSD.py
 ```
 
 
+```
+cd ~
+pkg uninstall python2 -y
+
+rm -f $PREFIX/bin/python2*
+rm -f $PREFIX/bin/python3.10*
+rm -f $PREFIX/bin/python3.12*
+rm -f $PREFIX/bin/python3.13*
+rm -f $PREFIX/bin/pip2*
+rm -f $PREFIX/bin/pip3.10*
+rm -f $PREFIX/bin/pip3.12*
+rm -f $PREFIX/bin/pip3.13*
+```
