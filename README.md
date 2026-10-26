@@ -79,4 +79,26 @@ rm -f $PREFIX/bin/pip2*
 rm -f $PREFIX/bin/pip3.10*
 rm -f $PREFIX/bin/pip3.12*
 rm -f $PREFIX/bin/pip3.13*
+
+
+
+
+pkg uninstall python3.12 -y
+pkg install python3.12 -y
+
+rm -f $PREFIX/bin/python $PREFIX/bin/python3 $PREFIX/bin/python-config $PREFIX/bin/python3-config $PREFIX/bin/pip $PREFIX/bin/pip3
+
+ln -sf python3.12 $PREFIX/bin/python3
+ln -sf python3 $PREFIX/bin/python
+ln -sf python3.12-config $PREFIX/bin/python3-config
+ln -sf python3.12-config $PREFIX/bin/python-config
+ln -sf pip3.12 $PREFIX/bin/pip3
+ln -sf pip3 $PREFIX/bin/pip
+
+python --version
+pip --version
+
+
+
+
 ```
