@@ -15,34 +15,23 @@ Agar Termux mein Python 3.13 installed hai aur Python 3.11 use karna chahte hain
 
 - `python3.11 --version`
 
-## ⚡ INSTALL TOOL ON TERMUX
-
-### 🔄 UPDATE PACKAGES
 
 - `pkg update`
 - `pkg upgrade`
 
-### 📦 INSTALL PYTHON AND GIT
-
 - `pkg install python`
 - `pkg install git`
-
-### 🛠️ INSTALL REQUIREMENTS
 
 - `pip install requests`
 - `pip install bs4`
 - `pip install futures`
 - `pip install mechanize`
 
-### 📂 INSTALL SMG
 
 - `rm -rf SMG`
 - `cd`
 - `git clone https://github.com/ASIF-KHAN0-320-420/SMG`
 - `cd SMG`
-
-### 🚀 RUN TOOL
-
 - `python DSD.py`
 
 ## 🧹 PYTHON CLEANUP
