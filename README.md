@@ -72,3 +72,20 @@ Agar Termux mein Python 3.13 installed hai aur Python 3.11 use karna chahte hain
 
 - `python --version`
 - `pip --version`
+
+
+
+
+
+
+
+- `pkg update`
+- `pkg install tur-repo`
+- `pkg install python3.11`
+### python version
+### srf python --version 
+### SE check karo
+- `ln -sf $PREFIX/bin/python3.11 $PREFIX/bin/python`
+### check version
+- `python --version`
+- 
